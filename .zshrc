@@ -1,11 +1,15 @@
-# The following lines were added by compinstall
+# For autocompletion with an arrow-key driven interface, add the following to
+zstyle ':completion:*' menu select 
 
-zstyle ':completion:*' completer _complete _ignored
+# The following lines were added by compinstall
 zstyle :compinstall filename '/home/stickee/.zshrc'
 
-autoload -Uz compinit
+autoload -Uz compinit promptinit
 compinit
-# End of lines added by compinstall 
+promptinit
+
+# This will set the default prompt to the walters theme
+prompt walters
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
