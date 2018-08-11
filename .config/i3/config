@@ -163,13 +163,16 @@ bindsym $mod+Shift+r 		restart
 #bindsym $mod+Shift+y 		
 
 #bindsym $mod+u 			
-#bindsym $mod+Shift+u 		
+bindsym $mod+Shift+u 		exec --no-startup-id "zsh ~/.scripts/i3resize left"		
 
 #bindsym $mod+i 			
-#bindsym $mod+Shift+i		
+bindsym $mod+Shift+i		exec --no-startup-id "zsh ~/.scripts/i3resize up"		
 
 #bindsym $mod+o 			
-#bindsym $mod+Shift+o 		
+bindsym $mod+Shift+o		exec --no-startup-id "zsh ~/.scripts/i3resize down"				
+
+#bindsym $mod+p 			
+bindsym $mod+Shift+p		exec --no-startup-id "zsh ~/.scripts/i3resize right"				
 ################################################################
 
 #bindsym $mod+a 		focus parent
@@ -211,6 +214,9 @@ bindsym $mod+Shift+b 		exec --no-start-id $BROWSER
 #bindsym $Mod+c
 ## reload the configuration file
 #bindsym $mod+Shift+c reload
+
+bindsym $mod+z 			gaps outer current plus 5
+bindsym $mod+Shift+z		gaps outer current minus 5
 
 bindsym $mod+v 			split v
 #bindsym $mod+Shift+v
