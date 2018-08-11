@@ -242,7 +242,7 @@ bindsym $mod+Shift+Right 	move right
 
 
 ##########################################################################
-#                    #--Arrow keyboad bindings---#                       #
+#                    #--Special keyboad bindings---#                       #
 ##########################################################################
 bindsym $mod+F4 		exit
 #bindsym $mod+Shift+F4 		move up
