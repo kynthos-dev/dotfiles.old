@@ -226,9 +226,6 @@ bindsym $mod+v 			split v
 
 
 
-
-
-
 ##########################################################################
 #                    #--Arrow keyboad bindings---#                       #
 ##########################################################################
@@ -243,6 +240,14 @@ bindsym $mod+Shift+Up 		move up
 
 bindsym $mod+Right 		focus right
 bindsym $mod+Shift+Right 	move right
+
+
+##########################################################################
+#                    #--Arrow keyboad bindings---#                       #
+##########################################################################
+bindsym $mod+F4 		exit
+#bindsym $mod+Shift+F4 		move up
+
 
 
 
