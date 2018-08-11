@@ -247,6 +247,9 @@ bindsym $mod+Shift+Right 	move right
 bindsym $mod+F4 		exit
 #bindsym $mod+Shift+F4 		move up
 
+#bindsym $mod+F5 		exit
+#bindsym $mod+Shift+F5 		move up
+
 
 
 
