@@ -4,10 +4,24 @@ markup=pango
 
 
 
+
+[weather]
+command=i3weather
+interval=3600
+
 [volume]
 interval=once
 command=i3volume
 signal=10
+
+
+[memory]
+label=MEM
+interval=30
+
+[disk]
+label=HOME
+interval=30
 
 [iface]
 label=🌐
