@@ -1,8 +1,10 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.scripts:$PATH
+export BROWSER="firefox"
+export TERMINAL="urxvt"
+export EDITOR="vim"
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/stickee/.oh-my-zsh"
+export ZSH="/home/stickee/.oh-my-zsh"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
