@@ -1,0 +1,22 @@
+command=/usr/lib/i3blocks/$BLOCK_NAME
+separator_block_width=15
+markup=pango
+
+[iface]
+label=🌐
+#instance=wlan0
+interval=10
+
+[battery]
+command=i3battery
+interval=5
+
+[time]
+label=📅
+command=echo $(date '+%Y %b %d (%a)  %I:%M%p') 🕓
+interval=30
+
+[wifi]
+command=i3wifi
+instance=wlp2s0
+interval=10
