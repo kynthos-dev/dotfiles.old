@@ -14,13 +14,13 @@ interval=once
 command=i3volume
 signal=10
 
-
 [memory]
-label=MEM
+label=🐏
+instance=mem;free
 interval=30
 
 [disk]
-label=HOME
+label=💾
 interval=30
 
 [iface]
