@@ -15,12 +15,12 @@ command=i3volume
 signal=10
 
 [memory]
-label=🐏
+label=💾
 instance=mem;free
 interval=30
 
 [disk]
-label=💾
+label=💽
 interval=30
 
 [iface]

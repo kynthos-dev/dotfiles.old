@@ -254,6 +254,8 @@ bindsym $mod+F4 		exit
 #bindsym $mod+F6 		exit
 #bindsym $mod+Shift+F6 		move up
 
+#bindsym $mod+F5 		exit
+bindsym $mod+Shift+F12		exec $shutdown
 
 
 ##########################################################################
