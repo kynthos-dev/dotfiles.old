@@ -1,12 +1,14 @@
 {
-    "editor.fontFamily": "'Cantarell'",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 22,
-    "editor.detectIndentation": false,
-    "window.zoomLevel": -1,
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.letterSpacing": -10,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "vscode-icons",
-    "vsicons.projectDetection.autoReload": true
+  "editor.fontFamily": "'Cantarell'",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 22,
+  "editor.detectIndentation": false,
+  "window.zoomLevel": -1,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.letterSpacing": -10,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.projectDetection.autoReload": true,
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true
 }
