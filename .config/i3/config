@@ -29,7 +29,7 @@ gaps outer 7
 set $mod Mod4
 set $term --no-startup-id $TERMINAL
 set $shutdown sudo -A shutdown -h now
-set $reboot sudo -A reboot
+set $reboot sudo -A reboot now
 set $netrefresh --no-startup-id sudo -A systemctl restart NetworkManager
 set $hibernate sudo -A systemctl suspend
 
@@ -254,7 +254,7 @@ bindsym $mod+F4 		exit
 #bindsym $mod+F6 		exit
 #bindsym $mod+Shift+F6 		move up
 
-#bindsym $mod+F5 		exit
+bindsym $mod+F12 		exec $reboot
 bindsym $mod+Shift+F12		exec $shutdown
 
 
