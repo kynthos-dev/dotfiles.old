@@ -106,6 +106,6 @@ fi
 alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
-alias dotfiles-remote-add="dotfiles remote add origin https://github.com/kynthos-dev/dotfiles"
+alias dotfiles-commit="dotfiles commit -a"
 alias dotfiles-push="dotfiles push origin master"
 alias i3config="vim ~/.config/i3/config"
