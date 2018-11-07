@@ -33,12 +33,6 @@ set $reboot sudo -A reboot now
 set $netrefresh --no-startup-id sudo -A systemctl restart NetworkManager
 set $hibernate sudo -A systemctl suspend
 
-
-
-
-
-
-
 ##########################################################################
 #                    #---Start External Scripts---#                      #
 ##########################################################################
@@ -72,10 +66,6 @@ exec --no-startup-id nm-applet
 
 # mpd startup
 # exec --no-startup-id mpd
-
-
-
-
 
 
 
