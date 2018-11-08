@@ -235,7 +235,7 @@ bindsym $mod+Shift+Right 	move right
 ##########################################################################
 #                    #--Special keyboad bindings---#                     #
 ##########################################################################
-bindsym $mod+F4 		exit
+bindsym $mod+F4 		exec --no-startup-id i3-msg exit exit
 #bindsym $mod+Shift+F4 		move up
 
 #bindsym $mod+F5 		exit
