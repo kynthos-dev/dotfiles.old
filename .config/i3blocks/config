@@ -2,9 +2,6 @@ command=/usr/lib/i3blocks/$BLOCK_NAME
 separator_block_width=15
 markup=pango
 
-
-
-
 [weather]
 command=i3weather
 interval=3600
@@ -34,7 +31,7 @@ interval=5
 
 [time]
 label=📅
-command=echo $(date '+%Y %b %d (%a)  %I:%M%p') 🕓
+command=echo $(date '+%Y %b %d (%a)  %I:%M%p') 
 interval=30
 
 [wifi]

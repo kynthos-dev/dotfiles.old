@@ -83,6 +83,7 @@ nano
 netctl
 network-manager-applet
 networkmanager
+noto-fonts-emoji
 ocl-icd
 openal
 openssh
@@ -118,11 +119,13 @@ systemd
 systemd-sysvcompat
 tar
 texinfo
+ttf-font-awesome
 usbutils
 util-linux
 v4l-utils
 vi
 vim
+vnstat
 vulkan-icd-loader
 which
 wine-mono

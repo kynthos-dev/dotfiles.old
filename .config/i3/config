@@ -176,7 +176,7 @@ bindsym $mod+Shift+p		exec --no-startup-id "zsh ~/.scripts/i3resize right"
 bindsym $mod+s			gaps inner current plus 2 			
 bindsym $mod+Shift+s 		gaps inner current minus 2
 
-bindsym $mod+d 			exec rofi -show run #-lines 3 -eh 2 -width 50 -padding 100 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "Cantarell 18"
+bindsym $mod+d 			exec rofi -show run #lines 3 -eh 2 -width 50 -padding 100 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "Cantarell 18"
 bindsym $mod+Shift+d		gaps inner current set 0; gaps outer current set 0 		
 
 bindsym $mod+f 			fullscreen toggle
